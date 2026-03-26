@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest",
-    "test:utils": "jest --config=jest.utils-config.js",
+    "test:utils": "jest --config=config/jest.utils-config.js",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "build:android": "cd android && ./gradlew bundleRelease",
