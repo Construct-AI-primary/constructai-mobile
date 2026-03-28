@@ -23,10 +23,10 @@ jest.mock('../../services/api', () => ({
 }));
 
 import { syncService } from '../syncService';
-import * as database from '../../services/database';
-import { apiService } from '../../services/api';
+import * as database from '../database';
+import { apiService } from '../api';
 import { SafetyIncident, SafetyHazard } from '../../store/slices/safetySlice';
-import { Equipment } from '../../services/database';
+import { Equipment } from '../database';
 
 // Mock data
 const mockIncidents: SafetyIncident[] = [
